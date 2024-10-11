@@ -27,3 +27,12 @@ function calcAvg(a, b, c){
 
 calcAvg()
 
+console.log("\n");
+//number table table 
+function printTable(n) {
+    for(let i=n; i<=n*10; i+=n){
+        console.log(i);
+    }
+}
+
+printTable();
