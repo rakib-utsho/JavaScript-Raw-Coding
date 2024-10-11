@@ -9,10 +9,21 @@ printPome();
 function diceRoll() {
     let dice = Math.floor(Math.random()*6)+1;
     console.log(dice);
-    console.log("\n");
 }
 
 diceRoll();
 diceRoll();
 diceRoll();
 diceRoll();
+
+console.log("\n");
+
+// Function with Argument
+
+function calcAvg(a, b, c){
+    let avg = (a+b+c)/3;
+    console.log(avg);
+};
+
+calcAvg()
+
